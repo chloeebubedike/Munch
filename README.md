@@ -15,11 +15,11 @@ def recipe_search(ingredient, cuisineType):
 
 
 def run():
-    ingredient = input('Are you ready to MUNCH! Enter all the ingredients you have: ')
-    cuisineType = input('Which cuisine would you like to MUNCH?')
+    ingredient = input('Are you ready to munch! Enter all the ingredients you have: ')
+    cuisineType = input('Which cuisine would you like to munch?')
     results = recipe_search(ingredient, cuisineType)
 
-    print("Good choice! You have chosen to MUNCH on some {} food".format(cuisineType))
+    print("Good choice! You have chosen to munch on some {} food".format(cuisineType))
 
     for result in results:
         recipe = result['recipe']
